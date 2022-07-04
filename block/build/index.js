@@ -2635,18 +2635,18 @@ var polls = [];
       value: attributes.id
     }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
       type: "radio",
-      id: "yes",
+      id: "poll-{attributes.id}-yes",
       name: "poll_response",
       value: "yes"
     }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
-      for: "yes"
+      for: "poll-{attributes.id}-yes"
     }, " Yes"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("br", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
       type: "radio",
-      id: "no",
+      id: "poll-{attributes.id}-no",
       name: "poll_response",
       value: "no"
     }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
-      for: "no"
+      for: "poll-{attributes.id}-no"
     }, " No"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("br", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("input", {
       className: "poll-submit-button",
       type: "submit",
